@@ -30,6 +30,18 @@ Run PowerShell as Administrator:
 Set-ExecutionPolicy Bypass -Scope Process -Force
 .\Start-WindowsPrivacySetup.ps1
 ```
+## Example Output
+```powershell
+[INFO] Starting Windows privacy setup...
+[INFO] Installing/Updating: Mozilla.Firefox
+[SUCCESS] Completed: Mozilla.Firefox
+[INFO] Installing/Updating: Git.Git
+[SUCCESS] Completed: Git.Git
+[SUCCESS] Package installation complete.
+[SUCCESS] Set HKLM:\SOFTWARE\Policies\Microsoft\Windows\DataCollection\AllowTelemetry = 0
+[SUCCESS] Disabled service: SysMain
+[SUCCESS] Setup complete. Reboot recommended.
+```
 
 ## Notes & Warnings
 * Intended for personal or development environments
