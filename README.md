@@ -42,6 +42,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 [SUCCESS] Disabled service: SysMain
 [SUCCESS] Setup complete. Reboot recommended.
 ```
+Output is color-coded for easier readability in PowerShell.
 
 ## Notes & Warnings
 * Intended for personal or development environments
